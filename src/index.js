@@ -22,19 +22,11 @@ module.exports = function longestConsecutiveLength(array) {
 
 
   function pushmas (num) {
-   /* if(massiv.length>0){
-      if(array.indexOf(num+1))
-      massiv2.push(num)
-      pushmas(array[array.indexOf(num)])
-    }
-    else{*/
       massiv.push(num)
     if(array.indexOf(num+1) == -1){
       return massiv
     }
    else pushmas(array[array.indexOf(num+1)])
-   // }
-   // if (massiv2.length>massiv.length) massiv=massiv2
-    //return massiv
+
   }
   } 
